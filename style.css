@@ -1,0 +1,40 @@
+#logo img
+{
+    width: 80px;
+	height: 55px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+
+nav a:hover
+{
+    color: #33B7FF;
+    border-bottom: 3px 
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
