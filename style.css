@@ -1,3 +1,6 @@
+body {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
 #logo img
 {
     width: 80px;
@@ -38,8 +41,58 @@ nav a
     justify-content: space-between;
 }
 
-body {
-	font-family: "Raleway";
+#localisation {
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    
+
+}
+#localisation {
+    background-color: #E4EDF1;
+    border-radius: 10px 0 0 10px;
+   
+} 
+    
+#localisation img {
+
+    width: 30px;
+    height: 30px;
+    
 }
 
+#search {
+    display: flex;
+    align-items: center;
+}
+
+.bouton-recherche {
+  color: white;
+  cursor: pointer;
+  
+  
+}
+.bouton-recherche:hover {
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+
+.bouton-recherche{ 
+ height: 50px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+}
+
+.bouton-recherche {
+    background-color: #1F89FA;
+    border-radius: 0 10px 10px 0;
+    border: lightcoral;
+
+}
+.border-search {
+    border: lightcoral;
+}
 
