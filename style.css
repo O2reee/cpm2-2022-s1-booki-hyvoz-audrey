@@ -32,6 +32,9 @@ nav a
 {
     color: #0065FC;
     border-bottom: 3px 
+    border-top: solid;
+    border-color: #0065FC;
+    padding-top: 25px;
 }
 
 #logo
@@ -42,18 +45,16 @@ nav a
 }
 
 #localisation {
-
     width: 50px;
     height: 50px;
     display: flex;
-    
-
+    justify-content: center;    
 }
+
 #localisation {
-    background-color: #E4EDF1;
-    border-radius: 10px 0 0 10px;
-   
-} 
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;  
+}
 
 #search {
     display: flex;
@@ -62,10 +63,9 @@ nav a
 
 .bouton-recherche {
   color: white;
-  cursor: pointer;
-  
-  
+  cursor: pointer; 
 }
+
 .bouton-recherche:hover {
   color: #0065fc;
   background-color: #f2f2f2;
@@ -84,50 +84,62 @@ nav a
     background-color: #1F89FA;
     border-radius: 0 10px 10px 0;
     border: lightcoral;
-
 }
+
 .border-search {
     border: lightcoral;
-
 }
+
 
 .filtres{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
- 
-.texte-filtres:hover {
- color: #0065fc;
-}
 
-.texte-filtres {
-  margin-left: -2px;
-  border-radius: 25px;
-  width: 52px;
-  height: 52px;
+ .texte-filtres:hover {
+ color: #0065fc;
 }
 
 .texte-filtres {
   display: flex;
   align-items: center;
 }
+ /* contour icone filtre */
+.contour-icones {
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  background-color: #deebff;
+}
+
+/*contour filtres*/
 .texte-filtres {
   width: 120px;
-  height: 30px;
+  height: 40px;
   border: 2px solid #f2f2f2;
   border-radius: 25px;
   margin-right: 5px;
 }
-.texte-filtres {
-  border: 2px solid #f2f2f2;
-  height: 50px;
-  border-radius: 60px;
-  margin-right: 20px;
+
+#hebergements{
+    display: flex;
+    flex-direction: column-reverse;
 }
-.hebergements {
-  height: 650px;
+
+.bloc1 {
+  height: 150px;
+  width: 300px;
   margin-right: 20px;
   border-radius: 10px;
-  background-color: gray;
+  background-color: #F2F2F2;
+}
+
+.bloc2 {
+  height: 150px;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
 }
