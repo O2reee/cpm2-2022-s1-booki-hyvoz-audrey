@@ -150,17 +150,7 @@ nav a
   margin-right: 20px;
   border-radius: 10px;
   background-color: #F2F2F2;
-
 }
-
-/*.bloc2 {
-  height: 150px;
-  width: 300px;
-  margin-right: 20px;
-  border-radius: 10px;
-  background-color: #F2F2F2;
-}
-*/
 
 .icone{
     display: flex;
@@ -196,5 +186,34 @@ nav a
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.bloc2 {
+  height: 150px;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.populairebloc{
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card_img2{
+    object-fit: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
 }
 
