@@ -4,7 +4,7 @@ body {
 #logo img
 {
     width: 80px;
-	height: 55px;
+    height: 55px;
 }
 
 nav ul
@@ -72,12 +72,12 @@ nav a
 }
 
 .bouton-recherche{ 
- height: 50px;
-  width: 130px;
-  font-size: 15px;
-  color: white;
-  font-weight: bolder;
-  margin-right: 5px;
+   height: 50px;
+   width: 130px;
+   font-size: 15px;
+   color: white;
+   font-weight: bolder;
+   margin-right: 5px;
 }
 
 .bouton-recherche {
@@ -97,15 +97,15 @@ nav a
     align-items: center;
 }
 
- .texte-filtres:hover {
- color: #0065fc;
+.texte-filtres:hover {
+   color: #0065fc;
 }
 
 .texte-filtres {
   display: flex;
   align-items: center;
 }
- /* contour icone filtre */
+/* contour icone filtre */
 .contour-icones {
   margin-left: -2px;
   border-radius: 30px;
@@ -115,18 +115,22 @@ nav a
 }
 .contour-icones
 {
-  height: 40px;
-  border: 2px solid #f2f2f2;
-  margin-right: 5px;
-} 
+    height: 40px;
+    border: 2px solid #f2f2f2;
+    margin-right: 5px;
+}
+
+.icone{
+    color: #0065FC;
+}
 
 /*contour filtres*/
 .texte-filtres {
-  width: 140px;
-  height: 40px;
-  border: 2px solid #f2f2f2;
-  border-radius: 25px;
-  margin-right: 5px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
 }
 .texte-filtres{
     flex-direction: row;
@@ -158,25 +162,27 @@ nav a
 */
 
 .icone{
-display: flex;
-padding-left: 11px;
-padding-top: 11px;
-border-radius: 11px;
-border-bottom: 11px;
+    display: flex;
+    padding-left: 11px;
+    padding-top: 11px;
+    border-radius: 11px;
+    border-bottom: 11px;
 }
 
 /* bordure et du positionement*/
 
 
-
-
 .card_img{
-   height: 50px;
-width: 50px; 
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
 }
-
 .hotel1 {
-
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
 }
 
 .hotel2 {
@@ -187,4 +193,5 @@ width: 50px;
     display: flex;
     justify-content: space-around;
 }
+
 
