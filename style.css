@@ -93,7 +93,7 @@ nav a
 
 .filtres{
     display: flex;
-    justify-content: space-between;
+    justify-content: safe flex-start;
     align-items: center;
 }
 
@@ -115,10 +115,8 @@ nav a
 }
 .contour-icones
 {
-  width: 140px;
   height: 40px;
   border: 2px solid #f2f2f2;
-  border-radius: 25px;
   margin-right: 5px;
 } 
 
@@ -156,6 +154,29 @@ nav a
 }
 
 .icone{
+display: flex;
 padding-left: 11px;
 padding-top: 11px;
+border-radius: 11px;
+border-bottom: 11px;
 }
+
+/* bordure et du positionement*/
+
+
+.herbegement-carte{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.hotel1 {
+height: 500px;
+width: 500px;
+}
+
+.hotel2 {
+height: 500px;
+width: 500px;
+}
+
