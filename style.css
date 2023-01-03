@@ -134,7 +134,9 @@ nav a
 
 #hebergements{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    width: 60%;
+    height: 40%;
 }
 
 .bloc1 {
@@ -143,15 +145,17 @@ nav a
   margin-right: 20px;
   border-radius: 10px;
   background-color: #F2F2F2;
+
 }
 
-.bloc2 {
+/*.bloc2 {
   height: 150px;
   width: 300px;
   margin-right: 20px;
   border-radius: 10px;
   background-color: #F2F2F2;
 }
+*/
 
 .icone{
 display: flex;
@@ -164,19 +168,23 @@ border-bottom: 11px;
 /* bordure et du positionement*/
 
 
-.herbegement-carte{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
+
+
+.card_img{
+   height: 50px;
+width: 50px; 
 }
 
 .hotel1 {
-height: 500px;
-width: 500px;
+
 }
 
 .hotel2 {
-height: 500px;
-width: 500px;
+
+}
+
+.hebergementsligne1{
+    display: flex;
+    justify-content: space-around;
 }
 
