@@ -72,12 +72,12 @@ nav a
 }
 
 .bouton-recherche{ 
-   height: 50px;
-   width: 130px;
-   font-size: 15px;
-   color: white;
-   font-weight: bolder;
-   margin-right: 5px;
+ height: 50px;
+ width: 130px;
+ font-size: 15px;
+ color: white;
+ font-weight: bolder;
+ margin-right: 5px;
 }
 
 .bouton-recherche {
@@ -98,7 +98,7 @@ nav a
 }
 
 .texte-filtres:hover {
-   color: #0065fc;
+ color: #0065fc;
 }
 
 .texte-filtres {
@@ -224,8 +224,8 @@ nav a
     border-radius: 15px 0 0 15px;
 }
 .lignehebergementetpopulaire {
- display: flex;
- flex-direction: row;
+   display: flex;
+   flex-direction: row;
 }
 
 #populaires{
@@ -233,11 +233,28 @@ nav a
     flex-direction: column;
 }
 
- .card_img3{
+.card_img3{
     object-fit: cover;
-    width: 35%;
-    height: 160px;
+    width: 100%;
+    height: 530px;
     border-radius: 15px 15px 0 0;
 }
 
 
+.bloc3{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.ficheduo{
+   display: flex;
+   flex-direction: column;
+}
+
+.card_img4{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
