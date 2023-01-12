@@ -139,7 +139,7 @@ nav a
 #hebergements{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
     height: 40%;
     padding-bottom: 20px;
 }
@@ -150,7 +150,10 @@ nav a
   margin-right: 20px;
   border-radius: 10px;
   background-color: #F2F2F2;
+  display: flex;
+  flex: 1;
 }
+
 
 .icone{
     display: flex;
@@ -189,16 +192,15 @@ nav a
 }
 
 .bloc2 {
-  height: 150px;
-  width: 300px;
+  height: 40%;
+  width: 40%;
   margin-right: 20px;
   border-radius: 10px;
   background-color: #F2F2F2;
-    flex: 1;
-    height: 650px;
-    margin-left: 20px;
-    border-radius: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
 }
+
 
 .populairebloc{
     background-color: white;
@@ -208,6 +210,11 @@ nav a
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+
 
 }
 .card_img2{
@@ -216,4 +223,19 @@ nav a
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
+.lignehebergementetpopulaire {
+ display: flex;
+ flex-direction: row;
+}
 
+#populaires{
+    display: flex;
+    flex-direction: column;
+}
+
+ .card_img3{
+    object-fit: cover;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 15px 0 0;
+}

@@ -1,103 +1,105 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">  
-    <script src="https://kit.fontawesome.com/3f07be2185.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
-    
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+  <script src="https://kit.fontawesome.com/3f07be2185.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
+  
 
 
-    <title>Bookie Audrey HYVOZ</title>
-  </head>
-  <body>
-    <header>
-      <div id="logo">
-        <img src="images/logo/Booki.png">
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
+  <title>Bookie Audrey HYVOZ</title>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="images/logo/Booki.png">
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Hébergements</a></li>
+          <li><a href="#">Activités</a></li>
 
-          </ul>
-        </nav>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1>
+        Trouvez votre hébergements pour vos vacances de rêve
+      </h1>
+      <p>En plein centre ville ou en pleine nature</p>
+    </div>
+
+    <div id="search" >
+      <div id="localisation">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
       </div>
-      <div>
-        <h1>
-          Trouvez votre hébergements pour vos vacances de rêve
-        </h1>
-        <p>En plein centre ville ou en pleine nature</p>
-      </div>
+      <input
+      type="search"
+      value="Marseille , France"
+      class="border-search"
+      />
+      <button class="bouton-recherche"> 
+        Rechercher
+      </button> 
+    </div>
 
-      <div id="search" >
-        <div id="localisation">
-          <i class="fa-sharp fa-solid fa-location-dot"></i>
+  </header>
+
+
+
+  <div class="filtres"> 
+    <div>
+      <h3>Filtres</h3>
+    </div>
+
+    <div class="texte-filtres">
+      <div class="contour-icones"> 
+        <span class="icone">
+          <i class="fa-sharp fa-solid fa-money-bill-wave"></i>
+        </span>
+      </div>
+      <span class="contour-filtres">Economique</span>
+    </div>
+
+    <div class="texte-filtres">
+      <div class="contour-icones">
+        <span class="icone">
+          <i class="fas fa-child fa-lg filtre-icons"></i></span>
         </div>
-        <input
-        type="search"
-        value="Marseille , France"
-        class="border-search"
-        />
-        <button class="bouton-recherche"> 
-          Rechercher
-        </button> 
+        <span class="contour-filtres">familial</span>
       </div>
 
-    </header>
 
-
-
-    <div class="filtres"> 
-      <div>
-        <h3>Filtres</h3>
+      <div class="texte-filtres">
+        <div class="contour-icones"> 
+          <span class="icone">
+            <i class="fa-sharp fa-solid fa-heart"></i>
+          </span>
+        </div>
+        <span class="contour-filtres">Romantique</span>
       </div>
 
       <div class="texte-filtres">
         <div class="contour-icones"> 
           <span class="icone">
-            <i class="fa-sharp fa-solid fa-money-bill-wave"></i>
-          </span>
-        </div>
-        <span class="contour-filtres">Economique</span>
-      </div>
-
-      <div class="texte-filtres">
-        <div class="contour-icones">
-          <span class="icone">
-            <i class="fas fa-child fa-lg filtre-icons"></i></span>
-          </div>
-          <span class="contour-filtres">familial</span>
-        </div>
-
-
-        <div class="texte-filtres">
-          <div class="contour-icones"> 
-            <span class="icone">
-              <i class="fa-sharp fa-solid fa-heart"></i>
-            </span>
-          </div>
-          <span class="contour-filtres">Romantique</span>
-        </div>
-
-        <div class="texte-filtres">
-          <div class="contour-icones"> 
-            <span class="icone">
-             <i class="fa-sharp fa-solid fa-dog"></i>
-           </span>
-         </div>
-         <span class="contour-filtres">Animaux autorisé</span>
+           <i class="fa-sharp fa-solid fa-dog"></i>
+         </span>
        </div>
-
-
+       <span class="contour-filtres">Animaux autorisé</span>
      </div>
 
-     <p>Plus de 500 logements sont disponibles dans cette ville</p>
 
+   </div>
 
+   <p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+   <div class="lignehebergementetpopulaire">
      <section id="hebergements" class="bloc1">
 
       <h2>Hébergements à Marseille</h2>
+
+
 
       <div class="hebergementsligne1">
 
@@ -177,6 +179,7 @@
  <section id="populaires" class=bloc2>
 
   <h2>Les plus populaires</h2>
+
   <div class="populairebloc">
    <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="card_img2">
    <p>Hôtel le soleil du matin</p>
@@ -186,62 +189,71 @@
    <i class="fa-sharp fa-solid fa-star"></i>
    <i class="fa-sharp fa-solid fa-star"></i>
    <i class="fa-sharp fa-solid fa-star"></i>
-</div>
-<!--
-  <div>
-    <div>image</div>
-    <p>Hôtel le soleil du matin</p>
-    <p>Nuit a partir de 128€</p>
-  </div>
+ </div>
 
-  <div>
-    <div>image</div>
-    <p>Au coeur de l'eau Chambres d'hôtes</p>
-    <p>Nuit a partir de 71€</p>
-  </div>
+ <div class="populairebloc">
+   <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="card_img2">
+   <p>Au coeur de l'eau Chambres d'hôtes</p>
+   <p>Nuit a partir de 71€</p>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+ </div>
 
-  <div>
-    <div>image</div>
-    <p>Hôtel tout bleu et blanc</p>
-    <p>Nuit a partir de 68€</p>
-  </div>
--->
+ <div class="populairebloc">
+   <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="card_img2">
+   <p>Hôtel tout bleu et blanc</p>
+   <p>Nuit a partir de 68€</p>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+   <i class="fa-sharp fa-solid fa-star"></i>
+ </div>
 </section> 
-
-<!--
+</div>
 <section id="activite" class=bloc3>
 
   <h2>Activités a Marseille</h2>
 
-  <div>
-    <div>image</div>
-    <p>Vieux port</p>
-  </div>
+  <div class="">
+   <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card_img3">
+   <p>Vieux port</p>
+ </div>
+ 
 
-  <div>
-    <div>image</div>
-    <p>Fort de pomègues</p>
-  </div>
+<!--
+<div>
+  <div>image</div>
+  <p>Vieux port</p>
+</div>
 
-  <div>
-    <div>image</div>
-    <p>Îles du Frioul</p>
-  </div>
+<div>
+  <div>image</div>
+  <p>Fort de pomègues</p>
+</div>
 
-  <div>
-    <div>image</div>
-    <p>Parc National des calanques</p>
-  </div>
+<div>
+  <div>image</div>
+  <p>Îles du Frioul</p>
+</div>
 
-  <div>
-    <div>image</div>
-    <p>Notre-dame-de-la-garde</p>
-  </div>
+<div>
+  <div>image</div>
+  <p>Parc National des calanques</p>
+</div>
 
-  <div>
-    <div>image</div>
-    <p>Parc longchamp</p>
-  </div>
+<div>
+  <div>image</div>
+  <p>Notre-dame-de-la-garde</p>
+</div>
+
+<div>
+  <div>image</div>
+  <p>Parc longchamp</p>
+</div>
 
 </section> 
 
